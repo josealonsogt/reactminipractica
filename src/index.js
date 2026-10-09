@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HomeComponent  from './components/HomeComponent';
+import DoctoresEspecialidad from './components/DoctoresEspecialidad';
+import Router from './Router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DoctoresEspecialidad/>
   </React.StrictMode>
 );
 
@@ -15,3 +18,9 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+/*<h1>index principal</h1>
+    <HomeComponent/>
+    <Router/>*/

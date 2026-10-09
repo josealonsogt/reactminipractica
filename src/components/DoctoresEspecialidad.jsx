@@ -64,7 +64,7 @@ urlDoctores = Global.urlDoctores;
                 <select ref={this.selectIdEspecialidad}>
                     {
                         this.state.especialidades.map((doc, index) => {
-                            return (<option key={index} value={doc.idDoctor}>
+                            return (<option key={index} value={doc.especialidad}>
                                 {doc.especialidad}
                             </option>)
                         })
